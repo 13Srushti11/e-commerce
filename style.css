@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+  }
+
+
+h1{
+  font-size: 50px;
+  line-height: 64px;
+}
+
+
+h2{
+  font-size: 46px;
+  color: white;
+  line-height: 54px;
+}
+
+
+h6{
+  font-size: 12px;
+}
+
+
+h4{
+  color: white;
+  font-size: 20px;
+}
+
+p{
+  font-size: 16px;
+  margin: 5px 0 5px 0;
+}
+
+.section-p1{
+  padding: 40px 80px;
+}
+
+.section-m1{
+  margin: 40px 0;
+}
+
+body{
+  width: 100%;
+  background-color: rgb(24, 21, 21);
+}
+
+.header{
+  position: sticky;
+  top: 0; 
+}
+#header{
+   background-image: url("indexpic/hf.png");
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 80px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.logo{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+
+}
+
+.logo img{
+  height: 50px;
+  width: 50px;
+} 
+
+h3{
+  font-size: 20px;
+  color: white;
+  padding-left: 0px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+}
+
+li{
+  list-style: none;
+  padding: 0 20px;
+}
+
+li a{
+  text-decoration: none;
+  /* font-size: 18px; */
+  font-weight: 600;
+  color: white;
+  transition: 0.3s ease;
+}
+
+li a:hover,
+li a.active{
+  color: rgb(97, 92, 92);
+}
+
+li:hover{
+  font-size: 21px;
+}
+
+li img{
+  height:60px;
+}
+
+
+
+.main-1{
+  width: 100%;
+}
+
+#feature{
+  padding: 40px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#feature.fe-box{
+  width: 10px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+}
+
+#feature.fe-box img{
+  height: 300;
+  width: 30px;
+}
+
+#product1 {
+  text-align: center;
+}
+
+.product{
+  border: 10px white;
+}
+
+.card{
+  background-color: black;
+}
+
+.product{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer{
+  background-color: black;
+}
+
+.footerdec{
+  /* padding-top: 6px; */
+  display: flex;
+  justify-content: space-between;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+
+.col p{
+  padding: 5px;
+}
+
+.col a{
+  text-decoration: none;
+  padding: 10px 0 10px 0;
+}
+
+.follow{
+  padding-top: 5px;
+}
+
+.icon{
+padding: 10px 0 0 0 ;
+}
+
+.icon img{
+  padding: 0 7.5px 0 0 ;
+}
+
+.copyright{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* style shop */
+
+#page-banner{
+  padding-top: 5px;
+  width: 100%;
+  background-size: cover;
+}
+
+.product{
+  padding-bottom: 30px;
+}
+/* 
+style about-us */
+
+#blog-about p{
+ padding-bottom: 20px;
+}
+
+.mar{
+  background-color: gray;
+  height: 15px;
+  text-align: center;
+  color: black;
+}
+
+#form-details{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 88px;
+  border: 0.5px solid black ;
+}
+
+#form-details form{
+   width: 65%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+#form-details form p{
+    font-size: 12px;
+    padding-top: 10px;
+    
+}
+
+#form-details form h2{
+  font-weight: light;
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
+
+#form-details form input,
+#form-details form textarea{
+  color: black;
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  background-color: rgb(145, 132, 132);
+}
+
+#form-details form ::placeholder{
+  color: black;
+}
+
+#form-details form button{
+  background-color: #088178;
+  color: #000;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+
+}
+
+#form-details .people div{
+  padding-bottom: 25px;
+  display: flex;
+  align-items: flex-start;
+}
+
+#form-details .people div img{
+  border-radius: 50%;
+ object-fit: cover;
+ margin-right: 15px;
+}
+
+#form-details .people div p{
+  margin: 0;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+#form-details .people div p span{
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+
+/* media query */
+
+@media(max-width:1350px){
+  ul{
+    display: flex;
+    align-items:flex-start ;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+ul li{
+  padding-bottom:15px ;
+}
+
+
+}
+
