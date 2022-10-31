@@ -94,7 +94,7 @@ li{
 
 li a{
   text-decoration: none;
-  font-size: 18px;
+/*   font-size: 18px; */
   font-weight: 600;
   color: white;
   transition: 0.3s ease;
@@ -105,6 +105,9 @@ li a.active{
   color: rgb(97, 92, 92);
 }
 
+li:hover{
+    font-size:21px;
+}
 li img{
   height:60px;
 }
